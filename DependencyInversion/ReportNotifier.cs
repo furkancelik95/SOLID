@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DependencyInversion
 {
-    internal class ReportNotifier // agnostic class
+    internal class ReportNotifier // agnostic class design
     {
         //public MailSender sender { get; set; }
         private readonly ISender sender;
